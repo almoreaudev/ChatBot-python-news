@@ -1,1 +1,21 @@
+# Environnement virtuel
+.venv
+
+# Variable environnement
 .env
+
+# Fichier IDE
+.vscode
+
+# Fichiers de cache
+**/__pycache__/
+
+# Données
+data/
+
+# Fichier de sortie
+*.json
+
+
+
+
