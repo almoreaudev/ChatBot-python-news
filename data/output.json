@@ -1,0 +1,174 @@
+{
+    "response": {
+        "status": "ok",
+        "userTier": "developer",
+        "total": 146213,
+        "startIndex": 1,
+        "pageSize": 10,
+        "currentPage": 1,
+        "pages": 14622,
+        "orderBy": "relevance",
+        "results": [
+            {
+                "id": "society/2024/mar/19/technology-must-tackle-bias-in-medical-devices",
+                "type": "article",
+                "sectionId": "society",
+                "sectionName": "Society",
+                "webPublicationDate": "2024-03-19T18:06:35Z",
+                "webTitle": "Technology must tackle bias in medical devices | Letter",
+                "webUrl": "https://www.theguardian.com/society/2024/mar/19/technology-must-tackle-bias-in-medical-devices",
+                "apiUrl": "https://content.guardianapis.com/society/2024/mar/19/technology-must-tackle-bias-in-medical-devices",
+                "fields": {
+                    "headline": "Technology must tackle bias in medical devices"
+                },
+                "isHosted": false,
+                "pillarId": "pillar/news",
+                "pillarName": "News"
+            },
+            {
+                "id": "games/article/2024/may/25/which-technology-was-popularised-by-chers-hit-believe-the-saturday-quiz",
+                "type": "article",
+                "sectionId": "games",
+                "sectionName": "Games",
+                "webPublicationDate": "2024-05-25T06:00:17Z",
+                "webTitle": "Which technology was popularised by Cher\u2019s hit Believe? The Saturday quiz",
+                "webUrl": "https://www.theguardian.com/games/article/2024/may/25/which-technology-was-popularised-by-chers-hit-believe-the-saturday-quiz",
+                "apiUrl": "https://content.guardianapis.com/games/article/2024/may/25/which-technology-was-popularised-by-chers-hit-believe-the-saturday-quiz",
+                "fields": {
+                    "headline": "Which technology was popularised by Cher\u2019s hit Believe? The Saturday quiz"
+                },
+                "isHosted": false,
+                "pillarId": "pillar/arts",
+                "pillarName": "Arts"
+            },
+            {
+                "id": "commentisfree/2024/mar/02/oprah-ozempic-weight-loss-drug-weightwatchers",
+                "type": "article",
+                "sectionId": "commentisfree",
+                "sectionName": "Opinion",
+                "webPublicationDate": "2024-03-02T14:00:32Z",
+                "webTitle": "Oprah\u2019s Ozempic brouhaha shows technology advances faster than attitudes | Arwa Mahdawi",
+                "webUrl": "https://www.theguardian.com/commentisfree/2024/mar/02/oprah-ozempic-weight-loss-drug-weightwatchers",
+                "apiUrl": "https://content.guardianapis.com/commentisfree/2024/mar/02/oprah-ozempic-weight-loss-drug-weightwatchers",
+                "fields": {
+                    "headline": "Oprah\u2019s Ozempic brouhaha shows technology advances faster than attitudes"
+                },
+                "isHosted": false,
+                "pillarId": "pillar/opinion",
+                "pillarName": "Opinion"
+            },
+            {
+                "id": "australia-news/2024/mar/15/mcdonalds-outage-australia-restaurants-update-details",
+                "type": "article",
+                "sectionId": "business",
+                "sectionName": "Business",
+                "webPublicationDate": "2024-03-15T17:16:24Z",
+                "webTitle": "McDonald\u2019s hit by \u2018technology outage\u2019 in UK, Australia, Japan and China",
+                "webUrl": "https://www.theguardian.com/australia-news/2024/mar/15/mcdonalds-outage-australia-restaurants-update-details",
+                "apiUrl": "https://content.guardianapis.com/australia-news/2024/mar/15/mcdonalds-outage-australia-restaurants-update-details",
+                "fields": {
+                    "headline": "McDonald\u2019s hit by \u2018technology outage\u2019 in UK, Australia, Japan and China"
+                },
+                "isHosted": false,
+                "pillarId": "pillar/news",
+                "pillarName": "News"
+            },
+            {
+                "id": "environment/article/2024/jun/06/at-heart-its-the-same-technology-the-heat-pump-that-uses-water-instead-of-air",
+                "type": "article",
+                "sectionId": "environment",
+                "sectionName": "Environment",
+                "webPublicationDate": "2024-06-06T04:00:46Z",
+                "webTitle": "\u2018At heart it\u2019s the same technology\u2019: the heat pump that uses water instead of air",
+                "webUrl": "https://www.theguardian.com/environment/article/2024/jun/06/at-heart-its-the-same-technology-the-heat-pump-that-uses-water-instead-of-air",
+                "apiUrl": "https://content.guardianapis.com/environment/article/2024/jun/06/at-heart-its-the-same-technology-the-heat-pump-that-uses-water-instead-of-air",
+                "fields": {
+                    "headline": "\u2018At heart it\u2019s the same technology\u2019: the heat pump that uses water instead of air"
+                },
+                "isHosted": false,
+                "pillarId": "pillar/news",
+                "pillarName": "News"
+            },
+            {
+                "id": "football/article/2024/jun/12/euro-2024-viewers-will-see-snickometer-technology-aid-decisions-var",
+                "type": "article",
+                "sectionId": "football",
+                "sectionName": "Football",
+                "webPublicationDate": "2024-06-12T17:56:08Z",
+                "webTitle": "Euro 2024 viewers will see how \u2018snickometer\u2019 technology can aid decisions",
+                "webUrl": "https://www.theguardian.com/football/article/2024/jun/12/euro-2024-viewers-will-see-snickometer-technology-aid-decisions-var",
+                "apiUrl": "https://content.guardianapis.com/football/article/2024/jun/12/euro-2024-viewers-will-see-snickometer-technology-aid-decisions-var",
+                "fields": {
+                    "headline": "Euro 2024 viewers will see how \u2018snickometer\u2019 technology can aid decisions"
+                },
+                "isHosted": false,
+                "pillarId": "pillar/sport",
+                "pillarName": "Sport"
+            },
+            {
+                "id": "sport/2024/feb/18/rugby-union-referees-technology-nigel-owens",
+                "type": "article",
+                "sectionId": "sport",
+                "sectionName": "Sport",
+                "webPublicationDate": "2024-02-18T19:00:00Z",
+                "webTitle": "Technology and TMOs have turned up spotlight on rugby union referees",
+                "webUrl": "https://www.theguardian.com/sport/2024/feb/18/rugby-union-referees-technology-nigel-owens",
+                "apiUrl": "https://content.guardianapis.com/sport/2024/feb/18/rugby-union-referees-technology-nigel-owens",
+                "fields": {
+                    "headline": "Technology and TMOs have turned up spotlight on rugby union referees"
+                },
+                "isHosted": false,
+                "pillarId": "pillar/sport",
+                "pillarName": "Sport"
+            },
+            {
+                "id": "business/2024/mar/15/honda-and-nissan-join-forces-on-electric-car-technology-to-chase-chinese-rivals",
+                "type": "article",
+                "sectionId": "business",
+                "sectionName": "Business",
+                "webPublicationDate": "2024-03-15T13:32:21Z",
+                "webTitle": "Honda and Nissan join forces on electric car technology to chase Chinese rivals",
+                "webUrl": "https://www.theguardian.com/business/2024/mar/15/honda-and-nissan-join-forces-on-electric-car-technology-to-chase-chinese-rivals",
+                "apiUrl": "https://content.guardianapis.com/business/2024/mar/15/honda-and-nissan-join-forces-on-electric-car-technology-to-chase-chinese-rivals",
+                "fields": {
+                    "headline": "Honda and Nissan join forces on electric car technology to chase Chinese rivals"
+                },
+                "isHosted": false,
+                "pillarId": "pillar/news",
+                "pillarName": "News"
+            },
+            {
+                "id": "uk-news/2023/dec/20/surveillance-technology-is-advancing-at-pace-with-what-consequences",
+                "type": "article",
+                "sectionId": "uk-news",
+                "sectionName": "UK news",
+                "webPublicationDate": "2023-12-20T19:00:05Z",
+                "webTitle": "Surveillance technology is advancing at pace \u2013 with what consequences?",
+                "webUrl": "https://www.theguardian.com/uk-news/2023/dec/20/surveillance-technology-is-advancing-at-pace-with-what-consequences",
+                "apiUrl": "https://content.guardianapis.com/uk-news/2023/dec/20/surveillance-technology-is-advancing-at-pace-with-what-consequences",
+                "fields": {
+                    "headline": "Surveillance technology is advancing at pace \u2013 with what consequences?"
+                },
+                "isHosted": false,
+                "pillarId": "pillar/news",
+                "pillarName": "News"
+            },
+            {
+                "id": "news/2023/dec/27/weatherwatch-solar-technology-heat-ray-archimedes-syracuse",
+                "type": "article",
+                "sectionId": "news",
+                "sectionName": "News",
+                "webPublicationDate": "2023-12-27T06:00:02Z",
+                "webTitle": "Weatherwatch: solar technology holds a mirror to the ancient world",
+                "webUrl": "https://www.theguardian.com/news/2023/dec/27/weatherwatch-solar-technology-heat-ray-archimedes-syracuse",
+                "apiUrl": "https://content.guardianapis.com/news/2023/dec/27/weatherwatch-solar-technology-heat-ray-archimedes-syracuse",
+                "fields": {
+                    "headline": "Weatherwatch: solar technology holds a mirror to the ancient world"
+                },
+                "isHosted": false,
+                "pillarId": "pillar/news",
+                "pillarName": "News"
+            }
+        ]
+    }
+}
