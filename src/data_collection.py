@@ -16,12 +16,15 @@ Fonction : get_guardian_articles(...)
 voir utils/util_decorator.py
 
 Arguments :
-query (quel type de résultat souhaité)
-api_key (prends la varible d'environnement "GUARDIAN_API_KEY" par défault)
-page et pagesize (Le numéro de la page avec le nombre d'article pour la page)
+query --> sur quoi se base la recherche pour l'API (rien "", "technology", "football", etc)
+api_key --> prends la varible d'environnement "GUARDIAN_API_KEY" par défault
+page et pagesize --> Le numéro de la page avec le nombre d'article pour la page
+
+Retour :
+Liste multi-dimensionnel JSON contenant la réponse de l'API
 '''
 @save_to_json('data/output.json')
-def get_guardian_articles(query, api_key=guardian_api_key, page=1, pagesize=10, orderBy='newest'):
+def get_guardian_articles_data(query, api_key=guardian_api_key, page=1, pagesize=10, orderBy='newest'):
     #configuration de la requête (url et params)
     url = f"https://content.guardianapis.com/search"
     params = {
@@ -30,7 +33,7 @@ def get_guardian_articles(query, api_key=guardian_api_key, page=1, pagesize=10, 
         'order-by': orderBy,
         'page': page,
         'page-size': pagesize,
-        'show-fields': 'headline, body'
+        'show-fields': 'headline,body'
     }
 
     #requête et sauvegarde dans une variable de la réponse
