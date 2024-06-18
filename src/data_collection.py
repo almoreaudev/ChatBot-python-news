@@ -23,8 +23,8 @@ page et pagesize --> Le numéro de la page avec le nombre d'article pour la page
 Retour :
 Liste multi-dimensionnel JSON contenant la réponse de l'API
 '''
-@save_to_json('data/output.json')
-def get_guardian_articles_data(query, api_key=guardian_api_key, page=1, pagesize=10, orderBy='newest'):
+@save_to_json('data/articles.json')
+def get_guardian_articles_data(query, api_key=guardian_api_key, page=1, pagesize=10, orderBy='newest') -> json:
     #configuration de la requête (url et params)
     url = f"https://content.guardianapis.com/search"
     params = {

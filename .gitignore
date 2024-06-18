@@ -12,6 +12,7 @@
 
 # Données
 data/
+database/
 
 # Fichier de sortie
 *.json
