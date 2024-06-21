@@ -51,17 +51,11 @@ Create a .env file with this :
     `GUARDIAN_API_KEY`
     `OPENAI_API_KEY`
 
-
 ## How to use
 When the environnement, the dependencies and the environnement variables are setup, you can use the programm
 
-Simply, run the file main.py in the terminal
+Run the main.py file with streamlit
 
 ```bash
-python3 main.py
-```
-
-To modify the question, go to the main and modify the variable "question" at the start of the file
-```python
-14 question="Que c'est t'il passé récemment à propos de la France ?"
+streamlit run main.py
 ```

@@ -16,6 +16,7 @@ def chatbot_prompt_template():
     systeme_template_str = """Your job is to give recent news to the user. 
     For this I give you various recent article from the journal Guardian.
     Do a small summary of various articles that I give you in as context and don't create information that you don't know.
+    If the user do small talk to you (like saying "hello", "thank you", "good bye") be polite to him.
     {context}
     """
 
