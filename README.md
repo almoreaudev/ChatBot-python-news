@@ -50,3 +50,12 @@ Create a .env file with this :
     
     `GUARDIAN_API_KEY`
     `OPENAI_API_KEY`
+
+## How to use
+When the environnement, the dependencies and the environnement variables are setup, you can use the programm
+
+Run the main.py file with streamlit
+
+```bash
+streamlit run main.py
+```
