@@ -1,13 +1,8 @@
 from src.data_collection import *
-from src.data_collection import *
 from src.data_preprocess import *
-from src.interface_st import *
-from src.chatbot_prompt_template import *
 
 from langchain_community.vectorstores import Chroma
 from langchain_openai import OpenAIEmbeddings
-from langchain_openai import ChatOpenAI
-
 
 #récupère 20 articles de l'API de Guardian et le stocke dans un fichier (articles.json)
 get_guardian_articles_data("", pagesize=100)

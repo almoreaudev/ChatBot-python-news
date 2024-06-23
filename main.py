@@ -1,12 +1,10 @@
-from src.data_collection import *
-from src.data_collection import *
-from src.data_preprocess import *
 from src.interface_st import *
 from src.chatbot_prompt_template import *
 
 from langchain_community.vectorstores import Chroma
 from langchain_openai import OpenAIEmbeddings
 from langchain_openai import ChatOpenAI
+import os
 
 articles_chroma_db = Chroma(
     collection_name="articles",
