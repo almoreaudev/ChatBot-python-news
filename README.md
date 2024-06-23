@@ -58,7 +58,7 @@ First run 'load_database.py' to load the articles from the guardian API, create 
 It will create "data/articles.json" and "database/chroma/..."
 
 ```bash
-python3 main.py
+python3 load_database.py
 ```
 
 Then, run the main.py file with streamlit
