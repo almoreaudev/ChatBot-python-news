@@ -54,8 +54,22 @@ Create a .env file with this :
 ## How to use
 When the environnement, the dependencies and the environnement variables are setup, you can use the programm
 
-Run the main.py file with streamlit
+First run 'load_database.py' to load the articles from the guardian API, create the database and populate the database.
+It will create "data/articles.json" and "database/chroma/..."
 
 ```bash
 streamlit run main.py
 ```
+
+Then, run the main.py file with streamlit
+
+```bash
+streamlit run main.py
+```
+
+You will be send to a window with the chatbot.
+Some example of things to ask :
+"Can you give me news about the football/ecology/france ?"
+"Can you give me news ?"
+
+If an error 400 occur, just try another question.

@@ -20,7 +20,7 @@ Une liste de "Document", un format spécial de langchain pour ajouter les donné
 def load_json_bodies_in_Document_list() -> list[Document]:
     loader = JSONLoader(
     file_path='data/articles.json',
-    jq_schema='.response.results[].fields.headline')
+    jq_schema='.response.results[].fields.body')
 
     documents = loader.load()
     return documents
@@ -40,7 +40,7 @@ def split_data (documents):
     #récupère les données au format JSON
     #data = get_guardian_articles_data(query, pagesize=5)     
         
-    text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
+    text_splitter = CharacterTextSplitter(chunk_size=300, chunk_overlap=0)
     documents = text_splitter.split_documents(documents)
     for d in documents:
         d.page_content=BeautifulSoup(d.page_content, "html.parser").get_text()

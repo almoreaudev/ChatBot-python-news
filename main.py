@@ -8,27 +8,11 @@ from langchain_community.vectorstores import Chroma
 from langchain_openai import OpenAIEmbeddings
 from langchain_openai import ChatOpenAI
 
-
-#récupère 20 articles de l'API de Guardian et le stocke dans un fichier (articles.json)
-data = get_guardian_articles_data("", pagesize=100)
-
-documents = load_json_bodies_in_Document_list()
-documents = split_data(documents)
-
-#Création de la base de donnée vectorielle "Chroma"
-#Nom de la base de données "articles"
-#Sauvegarde la database au chemin 'database/chroma/'
-#Utilise une fonction embedding par "défault", OpenAIEmbeddings()
 articles_chroma_db = Chroma(
-    "articles",
+    collection_name="articles",
     persist_directory='database/chroma/',
-    embedding_function=OpenAIEmbeddings(),
+    embedding_function=OpenAIEmbeddings()
 )
-
-
-#Ajout des documents à la base de donnée
-articles_chroma_db = articles_chroma_db.from_documents(documents, OpenAIEmbeddings())
-
 
 #récupère la variable d'environnement OPENAI_API_KEY pour accéder à openai
 os.getenv('OPENAI_API_KEY')
@@ -43,12 +27,13 @@ chatbot_prompt_template = chatbot_prompt_template()
 ##chat_model --> le modèle de chat-gpt utilisé
 ##StrOutputParser() --> envoie en réponse un string
 chatbot_chain = (
-    {"context": articles_chroma_db.as_retriever(k=4, fetch_k=100), "question": RunnablePassthrough()}
+    {"context": articles_chroma_db.as_retriever(k=3), "question": RunnablePassthrough()}
     | chatbot_prompt_template
     | chat_model
     | StrOutputParser()
 )
 
+#Créé l'interface du chatbot
 create_chatbot_interface(chatbot_chain=chatbot_chain)
 
 # Affiche le chat
